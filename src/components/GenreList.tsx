@@ -2,7 +2,7 @@
 import { HStack, List, ListItem, Image, Button, Spinner } from '@chakra-ui/react';
 import useGenres, { Genre } from '../hooks/UseGenres';
 import getCroppedImageUrl from '../service/image-url';
-import { FaBold } from 'react-icons/fa';
+
 interface Props {
     onSelectGenre: (genre: Genre) => void ;
     selectedGenre: Genre | null;
