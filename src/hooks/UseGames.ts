@@ -1,7 +1,7 @@
 
 import { GameQuery } from "../App";
 import useData from "./UseData";
-import { Genre } from "./UseGenres";
+
 
 export interface Platform {
     id: number;
